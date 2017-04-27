@@ -1,0 +1,339 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #888;
+    text-align: center;
+}
+
+strong { font-weight: 700; }
+
+img {
+  max-width: 100%;
+  height:auto;
+  width:auto;
+}
+
+.background-height {
+  height: 100vh;
+}
+
+.background-resize {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+
+.navbar {
+	margin-bottom: 0;
+	/*background: rgba(0,128,255,0.8);*/
+  background: rgba(196,128,0,0.7);
+	border: 0;
+	-moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+ul.navbar-nav {
+	font-size: 16px;
+	color: #666;
+	text-transform: uppercase;
+}
+
+ul.navbar-nav li a { padding-top: 23px; padding-bottom: 23px; color: #fff; }
+ul.navbar-nav li a:hover { background: rgba(196,128,0,0.1); color: rgba(132, 38, 255,0.7); }
+ul.navbar-nav li a:focus { background: rgba(196,128,0,0.2); color: rgba(132, 38, 255,0.7); outline: 0; }
+
+.navbar>.nav-container .navbar-brand { margin-left: 0; }
+
+.navbar>.nav-container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.navbar-brand {
+	width: 117px;
+	height: 66px;
+	background: url(../img/logo.png) left center no-repeat;
+	text-indent: -99999px;
+}
+
+.container{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/*********Page Title page**/
+.page-container {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.img-back{
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.page-title {
+  color: #eeeeee;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.page-title-text{
+  color: #eeeeee;
+  font-size: 72px;
+}
+
+
+.page-title-button{
+  display: inline-block;
+  position: relative;
+  color: #eeeeee;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #eeeeee;
+  width:120px;
+}
+
+.page-title-button:hover {
+  opacity: 0.6;
+}
+
+.page-span {
+  font-size: 20px;
+}
+
+.page-span span{
+  display: inline-block;
+  width: 80vw;
+  height: 2px;
+  background: #ddd;
+}
+
+/**********Profile**********/
+.profile-container{
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 40px;
+}
+
+.profile-title{
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.profile-span{
+  text-align: left;
+  font-size: 12px;
+}
+
+.profile-span span{
+  display: inline-block;
+	width: 300px;
+	height: 2px;
+	background: #ddd;
+}
+
+.profile-row {
+  padding-top: 20px;
+}
+
+.profile-img-radius {
+  border-radius: 20px;
+}
+
+.profile-about-me{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile-text{
+  font-size: 16px;
+}
+
+.profile-container-4 {
+  display: inline-block;
+  width: 39%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.profile-container-6 {
+  display: inline-block;
+  width: 59%;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
+/*************Resume Part***********/
+
+.resume-background{
+  background-color: #dddddd;
+}
+
+.resume-container{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.resume-left-container{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width:40%;
+}
+
+.resume-middle-container{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width:25%;
+}
+
+.resume-middle-point{
+  font-size: 16px;
+  color: #444444;
+}
+
+.resume-right-container{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width:25%;
+}
+
+.resume-left-title{
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.resume-right-title{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+/*****Education***/
+
+.education-container{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.education-left-container{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width:30%;
+  padding-left: 2vw;
+}
+
+.education-right-container{
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  width:65%;
+}
+
+.education-left-title{
+  font-size:24px;
+  text-transform: uppercase;
+}
+
+.education-title{
+  font-weight: bold;
+  font-size:20px;
+  padding-left: 10vw;
+}
+
+.education-text{
+  font-size: 16px;
+  padding-left: 12vw;
+}
+
+/**********Project Session********/
+.project-background{
+  background-color: #dddddd;
+}
+
+.project-container{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.project-text{
+  font-size: 20px;
+
+}
+
+.project-text span{
+  font-size: 24px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+.project-text span:hover{
+  background: #ffffff;
+  color: #888888;
+}
+
+/**********Bottom********/
+.contact-background{
+  background-color: #aaaaaa;
+}
+
+.contact-text{
+  font-size: 16px;
+  text-align: center;
+}
+
+.contact-text span{
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+/*
+.page-title-button{
+  position: relative;
+  color: #eeeeee;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #c48000;
+  margin: auto;
+  width: 20%;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  background-color: #c48000;
+}
